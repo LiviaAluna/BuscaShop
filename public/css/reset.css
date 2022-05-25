@@ -1,0 +1,33 @@
+@import url('http://fonts.cdnfonts.com/css/fira-sans');
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #fefbf9;
+	min-height: 100%;
+	color: navy;
+	font-family: 'Fira Sans';
+	font-size: 14pt;
+}
+
+input {
+	font-size: 14pt;
+}
+
+input[type=text], input[type=email], input[type=password] {
+	background-color: #fefbf9;
+	border: 1px solid navy;
+	color: navy;
+}
+
+input[type=submit] {
+	background-color: #9ac0ec;
+	border: 1px solid navy;
+	color: white;
+	transition: 0.3s;
+}
+
+input[type=submit]:hover {
+	background-color: white;
+	color: navy;
+	cursor: pointer;
+}
