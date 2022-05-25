@@ -1,0 +1,105 @@
+@import url('http://fonts.cdnfonts.com/css/fira-sans');
+
+:root {
+	--main-bg: #F5F5F5;
+	--green: #8DB48E;
+	--darkgreen: #4D724D;
+	--font-color: #2e602e;
+}
+
+/* Predefinições */
+* { box-sizing: border-box; }
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Fira Sans';
+	font-size: 14pt;
+	background-color: var(--main-bg);
+	color: var(--font-color);
+}
+input {
+	font-size: 14pt;
+	border: 1px solid var(--darkgreen);
+	border-radius: 3px;
+}
+input[type=text], input[type=password], input[type=email] {
+	background-color: #F5F5F5;
+}
+
+
+/* Cabeçalho da página */
+#header {
+	height: 10%;
+	background-color: var(--darkgreen);
+	color: white;
+	overflow: hidden;
+	padding: 20px 10px;
+	display: flex;
+	justify-content: space-evenly;
+	box-shadow: 0 2px 2px darkgray;
+}
+
+#header div {
+	display: flex;
+	align-items: center;
+}
+
+#logo-area {
+	width: 20%;
+}
+
+#logo-area h1 {
+	margin: 0;
+}
+
+#search-area {
+	width: 60%;
+	justify-content: center;
+}
+
+#search-area form {
+	width: 90%;
+	display: inline-flex;
+}
+
+#search-area input {
+	height: 3vmax;
+}
+
+#search-field {
+	width: 70%;
+}
+
+#filter-button, #search-button {
+	width: 30%;
+	background-color: #fff;
+}
+
+#options-area {
+	width: 20%;
+	justify-content: right;
+}
+
+#options-area li {
+	list-style-type: none;
+	display: inline;
+}
+
+#options-area a {
+	float: left;
+	color: white;
+	text-align: center;
+	font-size: 16pt;
+	padding: 0 10px;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+#options-area a:hover {
+	text-shadow: 2px 2px 2px darkgray, -2px -2px 2px darkgray;
+	transform: scale(1.05);
+}
+
+/*******************/
+
+/* Área principal */
