@@ -20,18 +20,18 @@
 				<form action="" method="POST">
 					<div class="input-container">
 						<label for="client_email"><i>E-mail</i>:</label><br>
-						<input name="client_email" id="client_email" type="email">
+						<input name="client_email" id="client_email" type="email" class="text-fields">
 					</div>
 					<div class="input-container">
 						<label for="client_password">Senha:</label><br>
-						<input name="client_password" id="client_password" type="password">
+						<input name="client_password" id="client_password" type="password" class="text-fields">
 					</div>
-					<input type="submit" value="Entrar">
+					<input type="submit" class="button-dark" value="Entrar">
 				</form>
 			</div>
 
 			<div class="other-options">
-				<a href="#">Criar conta?</a>
+				<a href="#" class="link-dark">Criar conta?</a>
 			</div>
 
 		</div>
