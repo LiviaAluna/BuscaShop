@@ -10,22 +10,17 @@
 /* Predefinições */
 * { box-sizing: border-box; }
 html, body {
+	width: 100%;
+	height: 100%;
 	margin: 0;
 	padding: 0;
 	font-family: 'Fira Sans';
 	font-size: 14pt;
 	background-color: var(--main-bg);
 	color: var(--font-color);
+	display: flex;
+	flex-flow: column;
 }
-input {
-	font-size: 14pt;
-	border: 1px solid var(--darkgreen);
-	border-radius: 3px;
-}
-input[type=text], input[type=password], input[type=email] {
-	background-color: #F5F5F5;
-}
-
 
 /* Cabeçalho da página */
 #header {
@@ -37,6 +32,7 @@ input[type=text], input[type=password], input[type=email] {
 	display: flex;
 	justify-content: space-evenly;
 	box-shadow: 0 2px 2px darkgray;
+	flex: 0 1 auto;
 }
 
 #header div {
@@ -102,4 +98,20 @@ input[type=text], input[type=password], input[type=email] {
 
 /*******************/
 
-/* Área principal */
+/* Formulários */
+input {
+	font-size: 14pt;
+	border: 1px solid var(--darkgreen);
+	border-radius: 3px;
+}
+input[type=text], input[type=password], input[type=email] {
+	background-color: #F5F5F5;
+}
+
+/*******************/
+
+/* Contêiner principal */
+.main-container {
+	flex: 1 1 auto; /* Preenche todo o espaço restante */
+	width: 100%;
+}
