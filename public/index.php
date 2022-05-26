@@ -10,7 +10,7 @@
 
 	<body>
 		<!-- Cabeçalho -->
-		<?= require_once 'header.php'; ?>
+		<?php require_once 'header.php'; ?>
 
 		<!-- Área principal -->
 		<div class="main-container">

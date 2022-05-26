@@ -9,9 +9,9 @@
 </head>
 
 <body>
-	<?= require_once 'header.php'; ?>
+	<?php require_once 'header.php'; ?>
 
-	<div class="container">
+	<div class="main-container">
 
 		<div class="form-info"><h1>Entrar</h1></div>
 
