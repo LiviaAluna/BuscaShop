@@ -8,28 +8,32 @@
 	<link rel="stylesheet" href="css/default.css">
 </head>
 
-<body>
+<body id="login-page">
 	<?php require_once 'header.php'; ?>
 
 	<div class="main-container">
 
-		<div class="form-info"><h1>Entrar</h1></div>
+		<div class="login-card">
+			<div class="form-info"><h1>Entrar</h1></div>
 
-		<div class="form-container">
-			<form action="" method="POST">
-				<div class="input-container">
-					<label for="client_email"><i>E-mail</i>:</label>
-					<input name="client_email" id="client_email" type="email">
-				</div>
-				<div class="input-container">
-					<label for="client_password"><i>E-mail</i>:</label>
-					<input name="client_password" id="client_password" type="email">
-				</div>
-				<input type="submit" value="Entrar">
-			</form>
+			<div class="form-container">
+				<form action="" method="POST">
+					<div class="input-container">
+						<label for="client_email"><i>E-mail</i>:</label><br>
+						<input name="client_email" id="client_email" type="email">
+					</div>
+					<div class="input-container">
+						<label for="client_password"><i>E-mail</i>:</label><br>
+						<input name="client_password" id="client_password" type="email">
+					</div>
+					<input type="submit" value="Entrar">
+				</form>
+			</div>
+
 		</div>
 
 	</div>
+
 </body>
 
 </html>

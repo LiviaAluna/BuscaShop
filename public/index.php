@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="css/default.css">
 	</head>
 
-	<body>
+	<body id="query-page">
 		<!-- Cabeçalho -->
 		<?php require_once 'header.php'; ?>
 
