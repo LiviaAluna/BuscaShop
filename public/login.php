@@ -23,11 +23,15 @@
 						<input name="client_email" id="client_email" type="email">
 					</div>
 					<div class="input-container">
-						<label for="client_password"><i>E-mail</i>:</label><br>
-						<input name="client_password" id="client_password" type="email">
+						<label for="client_password">Senha:</label><br>
+						<input name="client_password" id="client_password" type="password">
 					</div>
 					<input type="submit" value="Entrar">
 				</form>
+			</div>
+
+			<div class="other-options">
+				<a href="#">Criar conta?</a>
 			</div>
 
 		</div>
