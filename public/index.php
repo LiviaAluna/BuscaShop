@@ -13,7 +13,7 @@
 		<?= require_once 'header.php'; ?>
 
 		<!-- Área principal -->
-		<div id="main-content">
+		<div class="main-container">
 			<!-- A fazer -->	
 		</div>
 	</body>
