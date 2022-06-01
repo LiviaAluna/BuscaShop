@@ -4,21 +4,16 @@ class User {
     private int $id;
     private ?string $name;
     private ?string $email;
-    private ?string $password;
+    private $password;
     private Store $stores;
 
 	// Construtor
-    public function __construct(int $id, ?string $name, ?string $email, ?string $password) {
-        $this->id = genId();
+    public function __construct(int $id, ?string $name, ?string $email, $password) {
+        $this->id = $id;
         $this->name = $name;
         $this->email = $email;
         $this->$password = $password;
     }
-
-	// Gerar ID alatório de 5 dígitos
-	public function genId() {
-		return rand(10000, 99999);
-	}
 
 	// Retornar ID
 	public function getId() {
