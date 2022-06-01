@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 
+	<head>
+		<meta charset="utf-8">
+		<title>Entrar</title>
+		<link rel="stylesheet" href="css/default.css">
+	</head>
+
 	<body id="login-page">
 		<?php require_once 'header.php'; ?>
 
