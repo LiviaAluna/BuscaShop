@@ -1,0 +1,95 @@
+@import url('http://fonts.cdnfonts.com/css/fira-sans');
+
+/* Cores constantes */
+:root {
+	--default-bg-light: #E8ECEB;
+	--default-bg-dark: #E09E50;
+	--default-text-light: #FFFFFF;
+	--default-text-dark: #905000;
+}
+
+/* Predefinições gerais */
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Fira Sans';
+	font-size: 16pt;
+	background-color: var(--default-bg-light);
+	color: var(--default-text-dark);
+	display: flex;
+	flex-flow: column;
+}
+
+/* Cabeçalho */
+#main-header {
+	display: flex;
+	height: 10vmin;
+	align-items: center;
+	background-color: var(--default-bg-dark);
+	color: var(--default-text-light);
+	box-shadow: 1px 1px 1px lightgray;
+}
+
+#main-header .logo-area {
+	width: 20%;
+}
+
+#main-header .logo-area .logo {
+	font-size: 3vmax;
+	margin-left: 1vmax;
+}
+
+#main-header .search-area {
+	width: 60%;
+	display: flex;
+	justify-content: center;
+}
+
+#main-header .search-area .search-field {
+	background-color: white;
+	display: flex;
+	align-items: center;
+	height: 5vmin;
+	border-radius: 5px;
+}
+
+#main-header .search-area .search-field input[type=text] {
+	border: none;
+	width: 30vmax;
+	padding: 0 1vmin;
+	border-radius: inherit
+}
+
+#main-header .search-area .search-field .btn-search,
+#main-header .search-area .search-field .btn-settings {
+	border: none;
+	height: inherit;
+	width: 3vmax;
+}
+
+#main-header .search-area .search-field .btn-search {
+	border-radius: 0 5px 5px 0;
+}
+
+#main-header .search-area .search-field .btn-settings {
+	border-radius: 5px 0 0 5px;
+}
+
+#main-header .search-area .search-field .btn-search:hover,
+#main-header .search-area .search-field .btn-settings:hover {
+	cursor: pointer;
+}
+
+#main-header .menu-area {
+	width: 20%;
+	display: flex;
+	justify-content: right;
+}
+
+#main-header .menu-area a {
+	text-decoration: none;
+	color: var(--default-text-light);
+	margin: 0 1vmax;
+}
