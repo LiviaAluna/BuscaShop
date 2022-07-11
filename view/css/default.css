@@ -22,6 +22,17 @@ html, body {
 	flex-flow: column;
 }
 
+.main-container {
+	width: 100%;
+	height: 100%;
+}
+
+.card-light {
+	background-color: white;
+	border-radius: 5px; 
+	box-shadow: 0 -2px 2px lightgray, 2px 2px 2px lightgray;
+}
+
 /* Cabeçalho */
 #main-header {
 	display: flex;
@@ -92,4 +103,11 @@ html, body {
 	text-decoration: none;
 	color: var(--default-text-light);
 	margin: 0 1vmax;
+}
+
+/* Página de login */
+
+#login-page .login-card {
+	width: 50%;
+	height: 70%;
 }
