@@ -1,3 +1,4 @@
+<!-- Cabeçalho reutilizável -->
 <header id="main-header">
 
 	<div class="logo-area">
@@ -15,8 +16,8 @@
 	</div>
 
 	<div class="menu-area">
-		<a href="#">Entrar</a>
-		<a href="#">Cadastrar</a>
+		<a href="view/login.php">Entrar</a>
+		<a href="view/register.php">Cadastrar</a>
 	</div>
 
 </header>
