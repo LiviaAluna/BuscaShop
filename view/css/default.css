@@ -58,7 +58,7 @@ a {
 .card-light {
 	background-color: white;
 	border-radius: 5px; 
-	box-shadow: 0 -2px 2px lightgray, 2px 2px 2px lightgray;
+	box-shadow: -2px -2px 2px lightgray, 2px 2px 2px lightgray;
 }
 
 .btn-light {
@@ -103,13 +103,14 @@ a {
 .input-field {
 	box-sizing: border-box;
 	padding: 0 2vmin;
-	border: 1px solid var(--default-text-dark);
+	border: 1px solid gold;
 	transition: 0.3s;
 	outline: none !important;
 	border-radius: 5px;
 	font-size: 80%;
 	color: var(--default-text-dark);
 	background-color: var(--default-inputfield-bg);
+	box-shadow: inset 1px 1px 2px lightgray;
 }
 
 .input-field:hover {
@@ -157,7 +158,8 @@ a {
 	border: none;
 	width: 30vmax;
 	padding: 0 1vmin;
-	border-radius: inherit
+	border-radius: 0;
+	height: 100%;
 }
 
 #main-header .search-area .search-field .btn-search,
