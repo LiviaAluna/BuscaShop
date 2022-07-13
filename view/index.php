@@ -6,7 +6,6 @@
 		<meta charset="utf-8">
 		<title>BuscaShop</title>
 		<link rel="stylesheet" href="view/css/default.css">
-		<script src="https://kit.fontawesome.com/0e44423ff5.js" crossorigin="anonymous"></script>
 	</head>
 
 	<body id="main-page">
