@@ -6,6 +6,7 @@
 	--default-bg-dark: #E09E50;
 	--default-text-light: #FFFFFF;
 	--default-text-dark: #905000;
+	--default-inputfield-bg: #FAFAFA;
 }
 
 /* Predefinições gerais */
@@ -26,9 +27,32 @@ html, body {
 	font-family: Fira Sans;
 }
 
+a {
+	text-decoration: none;
+}
+
+.link-light {
+	color: white;
+}
+
+.link-light:hover {
+	text-shadow: 1px 1px 2px gold;
+}
+
+.link-dark {
+	color: var(--default-text-dark);
+}
+
+.link-dark:hover {
+	text-shadow: 1px 1px 2px lightgray;
+}
+
 .main-container {
 	width: 100%;
 	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .card-light {
@@ -42,12 +66,14 @@ html, body {
 	border-radius: 5px;
 	border: none;
 	transition: 0.3s;
+	color: var(--default-bg-dark);
 }
 
 .btn-light:hover {
 	background-color: var(--default-bg-dark);
 	cursor: pointer;
 	border: white;
+	color: white;
 }
 
 .btn-dark {
@@ -55,12 +81,15 @@ html, body {
 	border-radius: 5px;
 	border: none;
 	transition: 0.3s;
+	font-size: 100%;
+	color: white;
 }
 
 .btn-dark:hover {
 	background-color: white;
 	cursor: pointer;
 	border: 1px solid var(--default-bg-dark);
+	color: var(--default-bg-dark);
 }
 
 .text-light {
@@ -69,6 +98,26 @@ html, body {
 
 .text-dark {
 	color: var(--default-text-dark);
+}
+
+.input-field {
+	box-sizing: border-box;
+	padding: 0 2vmin;
+	border: 1px solid var(--default-text-dark);
+	transition: 0.3s;
+	outline: none !important;
+	border-radius: 5px;
+	font-size: 80%;
+	color: var(--default-text-dark);
+	background-color: var(--default-inputfield-bg);
+}
+
+.input-field:hover {
+	border: 1px solid gold;
+}
+
+.input-field:focus{
+	border: 1px solid darkorange;
 }
 
 /* Cabeçalho */
@@ -138,14 +187,46 @@ html, body {
 }
 
 #main-header .menu-area a {
-	text-decoration: none;
 	color: var(--default-text-light);
 	margin: 0 1vmax;
 }
 
 /* Página de login */
-
 #login-page .login-card {
-	width: 50%;
+	width: 35%;
 	height: 70%;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+#login-page .login-card div {
+	width: 80%;
+	height: 100%;
+}
+
+#login-page .login-card .card-header {
+	display: flex;
+	justify-content: center;
+	height: 20%; }
+
+#login-page .login-card .card-content {
+	height: 80%;
+}
+
+#login-page .login-card .card-content form {
+	width: 100%;
+	height: 80%;
+}
+
+#login-page .login-card .card-content form *:not(input[type=submit]) {
+	width: 100%;
+	height: 15%;
+	margin: 1vmin 0;
+}
+
+#login-page .login-card .card-content form input[type=submit] {
+	width: 100%;
+	height: 20%;
+	margin: 2vmin 0;
 }
