@@ -2,6 +2,7 @@
 <header id="main-header">
 
 	<script src="https://kit.fontawesome.com/0e44423ff5.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="/view/css/default.css">
 
 	<div class="logo-area">
 		<h1 class="logo"><a class="link-light" href="/index.php">BuscaShop</a></h1>

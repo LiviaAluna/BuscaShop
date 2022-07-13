@@ -5,7 +5,6 @@
 	<head>
 		<meta charset="utf-8">
 		<title>BuscaShop</title>
-		<link rel="stylesheet" href="view/css/default.css">
 	</head>
 
 	<body id="main-page">
