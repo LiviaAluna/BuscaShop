@@ -16,8 +16,8 @@
 	</div>
 
 	<div class="menu-area">
-		<a href="view/login.php">Entrar</a>
-		<a href="view/register.php">Cadastrar</a>
+		<a href="/view/login.php">Entrar</a>
+		<a href="/view/register.php">Cadastrar</a>
 	</div>
 
 </header>
