@@ -18,9 +18,7 @@
 				</div>
 				<div class="card-content">
 					<form action="" method="post">
-						<label for="email"><i>E-mail:</i></label><br>
 						<input class="input-field" type="email" name="email" placeholder="Email"><br>
-						<label for="password">Senha:</label><br>
 						<input class="input-field" type="password" name="password" placeholder="Senha"><br>
 						<input type="submit" class="btn-dark" value="Entrar">
 					</form>

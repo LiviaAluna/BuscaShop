@@ -18,13 +18,9 @@
 				</div>
 				<div class="card-content">
 					<form action ="">
-						<label for="nome">Nome: </label><br>
 						<input class="input-field" type="text" name="nome" placeholder="Seu Nome..." required><br>
-						<label for="email">E-mail: </label><br>
 						<input class="input-field" type="text" name="email" placeholder="Email" required><br>
-						<label for="telefone">Telefone: </label><br>
-						<input class="input-field" type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX" required><br>
-						<label for="senha">Senha: </label><br>
+						<input class="input-field" type="tel" name="telefone" placeholder="Telefone" required><br>
 						<input class="input-field" type="password" name="senha" placeholder="Senha" required><br>
 						<input class="btn-dark" type="submit" name="submit" class="btn_form"><br>
 					</form>
