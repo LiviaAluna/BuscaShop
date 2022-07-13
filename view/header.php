@@ -2,7 +2,7 @@
 <header id="main-header">
 
 	<div class="logo-area">
-		<h1 class="logo">BuscaShop</h1>
+		<h1 class="logo"><a class="link-light" href="/index.php">BuscaShop</a></h1>
 	</div>
 
 	<div class="search-area">
@@ -16,8 +16,8 @@
 	</div>
 
 	<div class="menu-area">
-		<a href="/view/login.php">Entrar</a>
-		<a href="/view/register.php">Cadastrar</a>
+		<a class="link-light" href="/view/login.php">Entrar</a>
+		<a class="link-light" href="/view/register.php">Cadastrar</a>
 	</div>
 
 </header>
