@@ -13,30 +13,24 @@
 		<?php require_once 'header.php'; ?>
 	
 		<div class="main-container">
-			<h2>Cadastrar</h2>
-			<form action ="">
-				<div class="textfield">
-					<label for="nome">Nome: </label>
-					<input type="text" name="nome" placeholder="Seu Nome..." required>
+			<div class="register-card card-light">
+				<div class="card-header">
+					<h3>Cadastrar</h3>
 				</div>
-				<br>
-				<div class="textfield">
-					<label for="email">E-mail: </label>
-					<input type="text" name="email" placeholder="Email" required>
+				<div class="card-content">
+					<form action ="">
+						<label for="nome">Nome: </label><br>
+						<input class="input-field" type="text" name="nome" placeholder="Seu Nome..." required><br>
+						<label for="email">E-mail: </label><br>
+						<input class="input-field" type="text" name="email" placeholder="Email" required><br>
+						<label for="telefone">Telefone: </label><br>
+						<input class="input-field" type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX" required><br>
+						<label for="senha">Senha: </label><br>
+						<input class="input-field" type="password" name="senha" placeholder="Senha" required><br>
+						<input class="btn-dark" type="submit" name="submit" class="btn_form"><br>
+					</form>
 				</div>
-				<br>
-				<div class="textfield">
-					<label for="telefone">Telefone: </label>
-					<input type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
-				</div>
-				<br>
-				<div class="textfield">
-					<label for="senha">Senha: </label>
-					<input type="password" name="senha" placeholder="Senha" required>
-				</div>
-				<br>
-				<input type="submit" name="submit" class="btn_form">
-			</form>
+			</div>
 		</div>
 	
 	</body>
