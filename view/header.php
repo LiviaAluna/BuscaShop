@@ -9,7 +9,7 @@
 		<form action="" method="post">
 			<div class="search-field">
 				<button class="btn-settings"><i class="fa-solid fa-ellipsis"></i></button>
-				<input type="text" placeholder="Produtos, lojas...">
+				<input class="input-field" type="text" placeholder="Produtos, lojas...">
 				<button class="btn-search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
 			</div>
 		</form>
