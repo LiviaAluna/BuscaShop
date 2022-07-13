@@ -205,75 +205,47 @@ a {
 }
 
 /* Página de login */
-#login-page .login-card {
-	width: 35%;
-	height: 70%;
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-}
-
-#login-page .login-card div {
-	width: 80%;
-	height: 100%;
-}
-
-#login-page .login-card .card-header {
-	display: flex;
-	justify-content: center;
-	height: 20%; }
-
-#login-page .login-card .card-content {
-	height: 80%;
-}
-
-#login-page .login-card .card-content form {
-	width: 100%;
-	height: 80%;
-}
-
-#login-page .login-card .card-content form *:not(input[type=submit]) {
-	width: 100%;
-	height: 15%;
-	margin: 1vmin 0;
-}
-
-#login-page .login-card .card-content form input[type=submit] {
-	width: 100%;
-	height: 20%;
-	margin: 2vmin 0;
-}
-
-/* Página de cadastro */
-#register-page .register-card {
+#login-page .login-card,
+#register-page .register-card,
+#store-creation-page .store-creation-card {
 	width: 35%;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
-	clear: both;
+	padding-bottom: 4%;
 }
 
-#register-page .register-card .card-header {
+#login-page .login-card .card-header,
+#register-page .register-card .card-header,
+#store-creation-page .store-creation-card .card-header {
 	display: flex;
 	justify-content: center;
 	height: 20%; }
 
-#register-page .register-card .card-content {
+#login-page .login-card .card-content,
+#register-page .register-card .card-content,
+#store-creation-page .store-creation-card .card-content {
 	height: 80%;
 }
 
-#register-page .register-card .card-content form {
+#login-page .login-card .card-content form,
+#register-page .register-card .card-content form,
+#store-creation-page .store-creation-card .card-content form {
 	width: 100%;
 	height: 80%;
 }
 
-#register-page .register-card .card-content form *:not(input[type=submit]) {
+#login-page .login-card .card-content form *:not(input[type=submit]),
+#register-page .register-card .card-content form *:not(input[type=submit]),
+#store-creation-page .store-creation-card .card-content form *:not(input[type=submit]) {
 	width: 100%;
 	height: 4vmax;
 	margin: 1vmin 0;
 }
 
-#register-page .register-card .card-content form input[type=submit] {
+#login-page .login-card .card-content form input[type=submit],
+#register-page .register-card .card-content form input[type=submit],
+#store-creation-page .store-creation-card .card-content form input[type=submit] {
 	width: 100%;
 	height: 4vmax;
 	margin: 2vmin 0;

@@ -22,7 +22,7 @@
 						<input class="input-field" type="text" name="email" placeholder="Email" required><br>
 						<input class="input-field" type="tel" name="telefone" placeholder="Telefone" required><br>
 						<input class="input-field" type="password" name="senha" placeholder="Senha" required><br>
-						<input class="btn-dark" type="submit" name="submit" class="btn_form"><br>
+						<input class="btn-dark" type="submit" name="submit" class="btn_form" value="Cadastrar"><br>
 					</form>
 				</div>
 			</div>
