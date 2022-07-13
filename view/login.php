@@ -14,14 +14,18 @@
 
 		<div class="main-container">
 			<div class="login-card card-light">
-				<h3>Entrar</h3>
-				<form action="" method="post">
-					<label for="email"><i>E-mail:</i></label><br>
-					<input type="email" name="email" placeholder="Email"><br>
-					<label for="password">Senha:</label><br>
-					<input type="password" name="password" placeholder="Senha"><br>
-					<input type="submit" class="btn-dark" value="Entrar">
-				</form>
+				<div class="card-header">
+					<h3>Entrar</h3>
+				</div>
+				<div class="card-content">
+					<form action="" method="post">
+						<label for="email"><i>E-mail:</i></label><br>
+						<input class="input-field" type="email" name="email" placeholder="Email"><br>
+						<label for="password">Senha:</label><br>
+						<input class="input-field" type="password" name="password" placeholder="Senha"><br>
+						<input type="submit" class="btn-dark" value="Entrar">
+					</form>
+				</div>
 			</div>
 		</div>
 
