@@ -9,5 +9,6 @@ do cusrso de ciência da computação da UFOPA.
 
 ## Página de cadastro
 <img src="screenshots/register.png" alt="Cadastro">
+
 ## Página de criação de loja
 <img src="screenshots/newstore.png" alt="Criação de loja">
